@@ -5,9 +5,12 @@ function PokemonDetail ({info}){
     <div className="pokemon-info">
       <div className="mt-2">
         <strong>sprites:</strong>
-        <ul className="list-unstyled">
+          <p>Back Default: </p>
           <img src={info.sprites}></img>
-        </ul>
+          <p>Back Shiny: </p>
+          <img src={info.sprites2}></img>
+          <p>Front Default: </p>
+          <img src={info.sprites3}></img>
       </div>
       <div>
         <strong>Moves:</strong>

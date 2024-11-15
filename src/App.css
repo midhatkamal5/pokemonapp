@@ -1,11 +1,10 @@
-/* App.css */
 .pokemon-info {
   font-size: 14px;
 }
 
 .card-body {
   padding: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px grey;
 }
 
 .card-title {
@@ -20,7 +19,7 @@ max-height: 25%;
 }
 .row>img
 {
-  max-width: 30%;
+  max-width: 10%;
 
 }
 
